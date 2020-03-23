@@ -32,5 +32,5 @@ public class Motocicleta extends Vehiculo{
 	public void setNumeroPlazas(byte num){
 		numeroPlazas=num;
 	}
-
+	
 }
