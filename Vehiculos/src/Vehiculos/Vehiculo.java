@@ -60,6 +60,13 @@ public class Vehiculo {
 		 public void setNumeroRuedas (byte numRuedas) {
 			 this.numeroRuedas = numRuedas;
 		 } 
+		 
+		 public void ver() {
+				System.out.println("El vehiculo es de color " + getColor());
+				System.out.println("Tiene " + getNumRuedas() + " numero de ruedas");
+				System.out.println("Con una cilindrada de" + getCilindrada());
+				System.out.println("Y una potencia de" + getPotencia());
+			}
 }
 
 
